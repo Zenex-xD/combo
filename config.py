@@ -1,4 +1,4 @@
-# language: Python 3.11 — config.py
+# language: Python 3.11 — config.py (corrected)
 import os
 from dotenv import load_dotenv
 
@@ -16,5 +16,5 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
 
-SERVICES = ["amazon", "prime", "steam", "epic"]
+SERVICE_NAMES = ["amazon", "prime", "steam", "epic"]
 STATUSES = ["HIT", "2FA", "LOCKED", "INVALID", "ERROR"]
